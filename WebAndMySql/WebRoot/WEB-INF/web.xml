@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>MyDay41User</display-name>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.it.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>InsertInfo</servlet-name>
+    <servlet-class>com.it.servlet.InsertInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteServlet</servlet-name>
+    <servlet-class>com.it.servlet.DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyInfo</servlet-name>
+    <servlet-class>com.it.servlet.ModifyInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ModifyInfo2</servlet-name>
+    <servlet-class>com.it.servlet.ModifyInfo2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Limmit</servlet-name>
+    <servlet-class>com.it.servlet.Limmit</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserAndLimit</servlet-name>
+    <servlet-class>com.it.servlet.UserAndLimit</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>InsertInfo</servlet-name>
+    <url-pattern>/InsertInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteServlet</servlet-name>
+    <url-pattern>/DeleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInfo</servlet-name>
+    <url-pattern>/ModifyInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifyInfo2</servlet-name>
+    <url-pattern>/ModifyInfo2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Limmit</servlet-name>
+    <url-pattern>/Limmit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAndLimit</servlet-name>
+    <url-pattern>/UserAndLimit</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
